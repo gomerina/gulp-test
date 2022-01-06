@@ -1,0 +1,19 @@
+.news {
+	margin:  0 0 20px 0;
+	border:  2px dashed black;
+	padding:  10px;
+	font-size: 20px;
+	line-height: 26px;
+	& p {
+		font-size: 25px;
+	}
+}
+.value__box {
+	display: flex;
+}
+@media (max-width: 700px) {
+	.news {
+		font-size: 14px;
+		border: 1px dashed black;
+	}
+}
